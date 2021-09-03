@@ -64,4 +64,16 @@ let maleAkanNames = [
 
   let myGenderValue = getGender();
 
-  console.log(myGenderValue);
+  console.log(myGenderValue); 
+  if (myGenderValue == "male" && monthValid && dayValid) {
+    switch (dayOfWeekNumber) {
+        case 0:
+            document.getElementById('result').textContent = "You were born on a Sunday: your Akan name is " + maleAkanNames[0];
+            document.getElementById('display-name').textContent = "Your Akan name is: ";
+            return false;
+            break; 
+        case 1:
+             document.getElementById('result').textContent = "You were born on a Monday: your Akan name is " + maleAkanNames[1];
+             document.getElementById('display-name').textContent = "Your Akan name is: ";
+             return false;
+             break;              
