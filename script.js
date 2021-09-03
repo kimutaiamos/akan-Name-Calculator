@@ -38,3 +38,18 @@ function getAkanName() {
       
   // let dayOfWeekNumber = Math.floor((((Number(yearOfBirth.slice(0, 2)) / 4) - 2 * Number(yearOfBirth.slice(0, 2)) - 1) +
   // ((5 * Number(yearOfBirth.slice(2, 4)) / 4)) + ((26 * (monthOfBirth + 1) / 10)) + dayOfBirth) % 7);
+
+  if (monthOfBirth < 3) {
+    monthOfBirth += 12;
+    yearOfBirth--;
+}
+let dayOfWeekNumber  = (dayOfBirth + parseInt(((monthOfBirth + 1) * 26) / 10) + yearOfBirth + parseInt(yearOfBirth / 4) + 6 * parseInt(yearOfBirth / 100) + parseInt(yearOfBirth / 400) - 1) % 7;
+
+
+let maleAkanNames = [
+    "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
+  ];
+
+  let femaleAkanNames = [
+    "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
+  ];
