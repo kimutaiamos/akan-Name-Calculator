@@ -30,14 +30,14 @@ body{
     height: 100%;
 }
 p {
-    color:lightgrey;
+    color:lightseagreen;
     font-size: large;
     font-family: fantasy;
     font-weight: bolder;
   }
   
   h1 {
-    color: white;
+    color:magenta;
   }
   
   #result {
