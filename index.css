@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(228, 235, 276);
+    text-align: center;
+    background-size: cover;
+}
+#akan{
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+#text{
+    text-align: left;
+    flex: 1;
+}
+#img{
+    height: 180px;
+    width: 180px;
+    text-align: center;
+}
+#image-div{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+}
+#image-div img{
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+p {
+    color:goldenrod;
+    font-size: large;
+    font-family: fantasy;
+    font-weight: bolder;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  #result {
+    display: inline;
+  }
+  .container{
+    box-shadow: 0px 0px 5px gray;
+  }
