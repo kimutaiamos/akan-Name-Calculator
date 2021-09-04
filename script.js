@@ -117,5 +117,25 @@ let maleAkanNames = [
           document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
           return false;
           break;
+        case 2:
+            document.getElementById('result') .textContent ="you were born on tuesday:your Akan name is " +femaleAkanNames[2]
+            document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
+            return false;
+            break;
+        case 3:
+              document.getElementById('result') .textContent ="you were born on wednursday:your Akan name is " +femaleAkanNames[3]
+              document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
+              return false;
+              break;
+        case 4:
+                document.getElementById('result') .textContent ="you were born on thursday:your Akan name is " +femaleAkanNames[4]
+                document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
+                return false;
+                break;
+         case 5:
+                  document.getElementById('result') .textContent ="you were born on friday:your Akan name is " +femaleAkanNames[5]
+                  document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
+                  return false;
+                  break;
 
         
