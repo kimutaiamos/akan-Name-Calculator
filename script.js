@@ -87,4 +87,13 @@ let maleAkanNames = [
               document.getElementById('display-name').textContent = "Your Akan name is: ";
              return false;
              break;
-
+        case 4:
+              document.getElementById('result').textContent = "You were born on a Thursday: your Akan name is " + maleAkanNames[4];
+              document.getElementById('display-name').textContent = "Your Akan name is: ";
+              return false;
+              break;
+        case 5:
+              document.getElementById('result').textContent = "You were born on a Friday: your Akan name is " + maleAkanNames[5];
+              document.getElementById('display-name').textContent = "Your Akan name is: ";
+              return false;
+              break;
