@@ -30,7 +30,7 @@ function getAkanName() {
             return true;
           }
         }
-      }
+      
 
       let monthValid=monthValidator();
       let dayValid=dayValidator();
@@ -77,3 +77,14 @@ let maleAkanNames = [
              document.getElementById('display-name').textContent = "Your Akan name is: ";
              return false;
              break;              
+        case 2:
+             document.getElementById('result').textContent = "You were born on a Tuesday: your Akan name is " + maleAkanNames[2];
+              document.getElementById('display-name').textContent = "Your Akan name is: ";
+             return false;
+             break;
+        case 3:
+            document.getElementById('result').textContent = "You were born on a Tuesday: your Akan name is " + maleAkanNames[2];
+              document.getElementById('display-name').textContent = "Your Akan name is: ";
+             return false;
+             break;
+
