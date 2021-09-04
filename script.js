@@ -137,5 +137,16 @@ let maleAkanNames = [
                   document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
                   return false;
                   break;
+          case 6:
+                    document.getElementById('result').textContent = "You were born on a saturday: your Akan name is " + maleAkanNames[6];
+                    document.getElementById('display-name').textContent = "Your Akan name is: ";
+                    return false;
+                    break;
+                  default:
+                    alert("invalid!");
+                  }
+                } else {
+                  alert("invalid date or month!");
+              }
 
         
