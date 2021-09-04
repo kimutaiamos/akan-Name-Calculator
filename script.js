@@ -105,5 +105,17 @@ let maleAkanNames = [
               default:
                 alert("invalid!");
     }
-  }
+  }else if (myGenderValue == "female" && monthValid && dayValid) {
+    switch (dayOfWeekNumber) {
+       case 0:
+            document.getElementById('result') .textContent ="You were born on sunday:your Akan name is " +femaleAkanNames[0];
+            document.getElementById('display-name').textContent ="your Akan name is : ";
+            return false;
+            break;
+        case 1:
+          document.getElementById('result') .textContent ="you were born on monday:your Akan name is " +femaleAkanNames[1]
+          document.getElementById('dispaly-name') .textContent ="your Akan name is : ";
+          return false;
+          break;
+
         
