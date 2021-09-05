@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Akan name calculator</title>
 </head>
+
 <body>
     <div class="content">
         <div class="container">
             <div id="akan">
                 <div id="text">
                     <h1>AKAN NAME</h1>
-                    <P>Hey! this is a web application designed to calculate the day yu were born and depending on the gender input determines the akan NAME.<br>
-                        You are just required to enter your date of birth,year of birth and submit hence get to know your <em>AKAN NAME</em><br>
+                    <P>Hey! this is a web application designed to calculate the day yu were born and depending on the
+                        gender input determines the akan NAME.<br>
+                        You are just required to enter your date of birth,year of birth and submit hence get to know
+                        your <em>AKAN NAME</em><br>
                         Akan names are derived from Ghanian culture.</P>
                 </div>
                 <div id="image-div">
@@ -24,16 +30,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
     <form class="myform" onclick="return getAkanName()">
         <p>Fill in the form below and you will know your <strong>Akan</strong>Name:</p>
         <label for="year-of-birth">
-          Year:
-          <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+            Year:
+            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
         </label>
         <label for="month-of-birth">
-            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value=""required>
+            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
         </label>
         <label for="day-input">
             <input id="day-of-birth" type="number" name="day -of-birth" placeholder="DD" value="" required>
@@ -46,17 +52,18 @@
             female
             <input id="female-input" type="radio" name="Gender" placeholder="F" value="" required>
             <br><br>
-           <input id="get-name" type="submit" name="" value="Generate name">
-          <br><br>
+            <input id="get-name" type="submit" name="" value="Generate name">
+            <br><br>
     </form>
     <form onsubmit="return clearInput()">
         <input class="clear" type="submit" value="Clear input">
-      </form>
+    </form>
 
-      <h4 id=display-name><strong>Your Akan name will be displayed below:</strong></h4>
-      <p id="result"></p>
+    <h4 id=display-name><strong>Your Akan name will be displayed below:</strong></h4>
+    <p id="result"></p>
     </div>
-  </div>
- ,  <script src="JS/script.js"></script>
+    </div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
