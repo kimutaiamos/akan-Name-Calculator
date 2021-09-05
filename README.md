@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 2. CSS
 3. Git
 4. JavaScript
-5.  ###  CONTACT US
+###  CONTACT US
 if you have any issue with our website,dont hesitate to contact us amos.kimutai@student.moringaschool.com
 ### contributing
 our website is build with little knowledge in the three language,it is however,open to anyone who would wish to contribute to our project.
